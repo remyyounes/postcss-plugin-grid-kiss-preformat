@@ -1,0 +1,35 @@
+{
+  "name": "postcss-grid-kiss-preformat",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that preformats the string values of grid-kiss declarations",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "grid-kiss"
+  ],
+  "author": "AUTHOR_NAME <AUTHOR_EMAIL>",
+  "license": "MIT",
+  "repository": "GITHUB_NAME/postcss-grid-kiss-preformat",
+  "bugs": {
+    "url": "https://github.com/GITHUB_NAME/postcss-grid-kiss-preformat/issues"
+  },
+  "homepage": "https://github.com/GITHUB_NAME/postcss-grid-kiss-preformat",
+  "dependencies": {
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
